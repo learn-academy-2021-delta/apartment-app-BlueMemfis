@@ -66,3 +66,13 @@ config/initializers/devise.rb
 config.sign_out_via = :delete
 # and replace it with this:
 config.sign_out_via = :get
+
+body {
+    margin: 0 auto;
+    background-image: url(zaha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    top: 0;
+    display: flex;
+  }
