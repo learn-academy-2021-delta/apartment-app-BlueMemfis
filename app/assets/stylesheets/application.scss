@@ -1,5 +1,6 @@
 @import 'bootstrap';
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
  
  * {
    margin: 0;
@@ -49,14 +50,14 @@
  }
 //  body {
 //     margin: 0 auto;
-//     background-image: Parfume Logo.gif;
+//     background-image: initial(../assets/Parfume Logo.gif);
 //     background-repeat: no-repeat;
 //     background-size: cover;
 //     width: 100%;
 //     top: 0;
 //     display: flex;
 //   }
- 
+
  /* ---HOME--- */
  .colored-doors {
    width: 100vw;
