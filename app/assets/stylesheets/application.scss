@@ -1,4 +1,85 @@
-/*
+@import 'bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+ 
+ * {
+   margin: 0;
+   padding: 0;
+   font-family: 'Noto Sans KR', sans-serif;
+ }
+ .page-body {
+   text-align: center;
+   margin-top: 170px;
+ }
+ button {
+   padding: 10px;
+   background-color: #8B0000;
+   color: white;
+ }
+ button:hover {
+   cursor: pointer;
+   background-color: #D2D2CF;
+   color: black;
+ }
+ 
+ /* ---HEADER--- */
+ header {
+   display: flex;
+   justify-content: space-between;
+   background-color: #D2D2CF;
+   position: fixed;
+   width: 25%;
+   top: 10
+ }
+ .nav-bar {
+   display: flex;
+   align-items: flex-end;
+   padding-bottom: 10px;
+ }
+ .nav-link {
+   margin: 10px;
+   color: #8B0000;
+   text-decoration: none;
+ }
+ .nav-link:hover {
+   text-decoration: underline;
+ }
+ .logo {
+   height: 150px;
+   margin-left: 20px;
+ }
+//  body {
+//     margin: 0 auto;
+//     background-image: Parfume Logo.gif;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     width: 100%;
+//     top: 0;
+//     display: flex;
+//   }
+ 
+ /* ---HOME--- */
+ .colored-doors {
+   width: 100vw;
+   margin-top: 200px;
+ }
+ 
+ 
+ /* ---INDEX--- */
+ .card {
+   text-align: left;
+   border: 1px solid black;
+   padding: 40px;
+   border: 1px solid black;
+ }
+ .cards {
+   display: flex;
+   justify-content: space-around;
+ }
+ .fa-icon {
+   font-size: 25px;
+   padding-right: 10px;
+ }
+ /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
@@ -13,4 +94,3 @@
  *= require_tree .
  *= require_self
  */
-@import 'bootstrap';
